@@ -267,7 +267,7 @@ nav {
 }
 .nav-center {
   width: 90vw;
-  max-width: var(--max-width);
+  max-width: var(--fixed-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -313,6 +313,7 @@ main {
   border-radius: var(--borderRadius);
   margin-bottom: 2.5rem;
   letter-spacing: 5px;
+  font-weight: bold;
 }
 .color {
   color: var(--primary-500);
