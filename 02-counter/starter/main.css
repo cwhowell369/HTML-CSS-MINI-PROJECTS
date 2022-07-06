@@ -274,7 +274,7 @@ main {
 }
 #value {
   font-size: 7rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.25;
 }
 .counter-btn {
