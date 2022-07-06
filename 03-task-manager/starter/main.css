@@ -322,7 +322,7 @@ Tasks
   box-shadow: var(--shadow-4);
 }
 .single-task .fa-check-circle {
-  margin-left: 1.25rem;
+  margin-left: -1.25rem;
   margin-right: 1.5rem;
   color: var(--green-dark);
   font-size: 1rem;
