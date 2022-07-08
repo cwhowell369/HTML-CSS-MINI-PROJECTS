@@ -301,3 +301,56 @@ main {
   top: -0.25rem;
   right: -0.5rem;
 }
+.img-container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--primary-500);
+  border-radius: 50%;
+  color: var(--white);
+  transform: translate(25%);
+  font-family: "Font Awesome 5 Free";
+  content: "\f10e";
+  font-weight: 900;
+  display: grid;
+  place-items: center;
+}
+#author {
+  margin-bottom: 0.25rem;
+}
+#job {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: var(--primary-500);
+  font-size: 0.85rem;
+}
+#info {
+  margin-bottom: 0.75rem;
+}
+.prev-btn,
+.next-btn {
+  color: var(--primary-300);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: var(--primary-500);
+}
+.random-btn {
+  margin-top: 0.75rem;
+  background: var(--primary-100);
+  color: var(--primary-500);
+  border: 2px solid var(--primary-500);
+  padding: 0.25rem 0.5rem;
+}
+.random-btn:hover {
+  background: var(--primary-500);
+  color: var(--black);
+}
