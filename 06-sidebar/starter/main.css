@@ -295,9 +295,11 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--shadow-2);
   transition: var(--transition);
-  /* todo hide sidebar */
+  transform: translate(-100%);
 }
-/* todo show sidebar */
+.show-sidebar {
+  transform: translate(0);
+}
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 400px;
@@ -344,7 +346,7 @@ Sidebar
 }
 .social-icons i {
   font-size: 1rem;
-  margin: 0 0.5rem;
+  /* margin: 0 0.5rem; */
   color: var(--primary-500);
   transition: var(--transition);
 }
